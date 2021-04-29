@@ -61,6 +61,11 @@ namespace IoTApp
         {
             Receiving.Write(str);
         }
+        public void Flush()
+        {
+            Receiving.sw.Flush();
+            Sending.sw.Flush();
+        }
     }
     public class Config
     {
@@ -78,7 +83,6 @@ namespace IoTApp
             //default setting; 
             MQTTBroker = "broker.hivemq.com";
             Topic = "CTI/Sensors/";
-
             if (role == "Sender")
             {
                 ThisRole = SimulationRole.Sender;
@@ -225,7 +229,7 @@ namespace IoTApp
             }
             return true;
         }
-        public static Config myConfig = new Config("Sender");
+        public static Config myConfig = new Config("Receiver");
         public static SQLWraper Sql = new SQLWraper();
         static void Main(string[] args)
         {
@@ -358,13 +362,12 @@ namespace IoTApp
             {
                 myConfig.Log.LogReceiving(DateTime.Now + " Received reply topic:[" + Topic + "]  payload: [" + payload + "]");
                 //you can insert into DB here 
-                bool Succees = myConfig.Log.Receiving.sw.AutoFlush;
+                myConfig.Log.Flush();
             }
             catch (Exception e2)
             {
                 Console.WriteLine("Exception: " + e2.Message);
             }
         }
-
     }
 }
