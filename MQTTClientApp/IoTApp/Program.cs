@@ -1,4 +1,4 @@
-﻿/*CTI internal use only. NO Unauthorized Usage unless approved by Shuo Ding
+﻿/*NO Unauthorized Usage unless approved by Shuo Ding
 
  * Realtime IoT MQTT Simulator - RIMSim
  *   
