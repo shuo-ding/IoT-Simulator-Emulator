@@ -1,10 +1,10 @@
-﻿/*NO Unauthorized Usage unless approved by Shuo Ding
+/*Unauthorized Usage is prohibited, unless approved by Dr Shuo Ding
 
  * Realtime IoT MQTT Simulator - RIMSim
  *   
  * Author Dr Shuo Ding, 2021 
  * 
- * Website: www.IoTNextDay.com
+ * Website: https://IoTNextDay.com
  * 
  * Shuo.Ding.Australia@gmail.com 
 */
