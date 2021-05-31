@@ -474,6 +474,11 @@ namespace IoTApp
             MqttClient mqttClient = new MqttClient(myConfig.MQTTBroker);
 
             mqttClient.Connect(myConfig.MyID);
+            /*Reserved for Azure IoT hub secure connection            
+            MqttClient mqttClient = new MqttClient("MyIoTHubConnection.azure-devices.net", 8883, true, null, null, MqttSslProtocols.TLSv1_2);
+            mqttClient.Connect(myConfig.MyID, "MyIoTHubConnection.azure-devices.net/MyIoTDevices/api-version=2018-06-30", "VEdTAUHL3DkWSxbyYZrJj/PR4pBFf3xaOhPxbvKECAM=");
+            */
+            
             Console.WriteLine("Connected to MQTT Broker - " + myConfig.MQTTBroker);
 
             //define a callback when receiving messages 
