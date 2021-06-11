@@ -11,4 +11,4 @@ RIMSim v3.0 provides you with a great platform for developing applications with 
 
 Please visit my documentation website
 
- <a href="https://iotnextday.com/index.php/rimsim-blog">IoT Next Day</a>
+ <a href="https://iotnextday.com">IoT Next Day</a>
