@@ -9,5 +9,6 @@ RIMSim is a realtime IoT sensor simulator based on MQTT protocol, with unlimited
 
 RIMSim v3.0 provides you with a great platform for developing applications with the requirement of simulating unlimited IoT sensors in your project. Some use cases may include: IoT network attacking, vehicle real-time location and guidance in smart car park scenario, smart traffic lights and electrical signs/road sensors for autonomous vehicles, etc.
 
-Please visit my documentation website - IoT Next Day
-https://iotnextday.com/index.php/rimsim-blog
+Please visit my documentation website
+
+ <a href="https://iotnextday.com/index.php/rimsim-blog">IoT Next Day</a>
