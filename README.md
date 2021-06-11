@@ -7,7 +7,7 @@ The Message Queuing Telemetry Transport (MQTT) is a lightweight, publish-subscri
 
 RIMSim is a realtime IoT sensor simulator based on MQTT protocol, with unlimited capacity of sending MQTT messages to the MQTT broker, per user defined. The simulator can be configured as "Sender", "Receiver", or "Transceiver" role as user desired. Simulation parameters can be easily configured by XML file, and simulation results will be stored as TXT files with timestamp, and inserted into SQLServer database. A Power BI visualization dashboard is also provided to visualize the realtime statistics. In RIMSim v3.0, two types of sensors are supported, Static and Vehicle. Through selecting route on Google map and converting to GPX file, RIMSim is able to simulate vehicles moving on GPX map, with varying speed, and pause time. The Static sensors will send messages from static positions, simulating Temperature, Air Quality, and Humidity sensors. 
 
-RIMSim provides with you a great platform for developing applications with the requirement of simulating unlimited IoT sensors in your project. Some use cases may include: IoT network attacking, vehicle real-time location and guidance in smart car park scenario, smart traffic lights and electrical signs/road sensors for autonomous vehicles, etc. 
+RIMSim v3.0 provides you with a great platform for developing applications with the requirement of simulating unlimited IoT sensors in your project. Some use cases may include: IoT network attacking, vehicle real-time location and guidance in smart car park scenario, smart traffic lights and electrical signs/road sensors for autonomous vehicles, etc.
 
 Please visit my documentation website - IoT Next Day
 https://iotnextday.com/index.php/rimsim-blog
