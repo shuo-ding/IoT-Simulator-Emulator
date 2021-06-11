@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config xmlns="https://iot.com">
+  <global>
+    <MqttBroker>localhost</MqttBroker>
+    <Role>Sender</Role>
+    <LogPath>D:\Workplace\</LogPath>
+	<SqlConnectionString>Data Source=.\sqlexpress; Initial Catalog=IoTDB; Integrated Security=True</SqlConnectionString>   
+    <PublishTopic>CTI/Sensors/</PublishTopic>
+    <SubscribeTopic>CTI/Sensors/#</SubscribeTopic>	 
+	<SimulationMins>20</SimulationMins>
+	<SleepMs>50</SleepMs>	
+  </global>   
+  <task id="1">   
+    <EntityType>Static</EntityType>
+	<NumberofSensors>50</NumberofSensors>
+    <SendingIntervalSeconds>30</SendingIntervalSeconds>
+	<SendingIntervalOffset>15</SendingIntervalOffset>	
+	 <value id="1" min="10" max="100"></value>
+	 <value id="2" min="20" max="45"></value>
+	 <value id="3" min="20" max="450"></value>	 
+     <gpszone latmin="-37.725057" latmax="-37.669777" lonmin="144.998355" lonmax="145.107195"></gpszone>   
+  </task>    
+  
+  <task id="2">  
+    <EntityType>Vehicle</EntityType>
+	<NumberofSensors>100</NumberofSensors>
+    <SendingIntervalSeconds>20</SendingIntervalSeconds>
+	<SendingIntervalOffset>10</SendingIntervalOffset>	
+	<value id="1" min="50" max="60"></value>
+	<value id="2" min="0" max="0"></value>
+	<value id="3" min="0" max="10"></value>	 
+    <gpszone></gpszone> 
+  </task>    
+</Config>
