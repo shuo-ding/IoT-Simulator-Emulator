@@ -1,10 +1,10 @@
-﻿/*CTI internal use only. NO unauthorized use unless approved by Shuo Ding
+﻿/*Autonomous City - The Internet of Things Powered by Blockchain Project Use Only.  
 
  * Realtime IoT MQTT Simulator - RIMSim v3.0
  *   
- * Author Dr Shuo Ding, 24 June 2021 
+ * Author Dr Shuo Ding, 12 June 2021 
  * 
- * Website: https://IoTNextDay.com
+ * Documentation Website: https://IoTNextDay.com
  * 
  * Shuo.Ding.Australia@gmail.com 
 */
