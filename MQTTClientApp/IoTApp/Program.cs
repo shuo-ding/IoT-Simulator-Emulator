@@ -1,6 +1,6 @@
 ﻿/*Autonomous City - The Internet of Things Powered by Blockchain Project Use Only.  
 
- * Realtime IoT MQTT Simulator - RIMSim v3.0
+ * IoT Simulator - v2.0
  *   
  * Author Dr Shuo Ding, 12 June 2021 
  * 
