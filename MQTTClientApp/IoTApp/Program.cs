@@ -1,13 +1,17 @@
-﻿/*Autonomous City - The Internet of Things Powered by Blockchain Project.  
-
- * IoT Simulator - v2.0
- *   
- * Author Dr Shuo Ding, 12 June 2021 
- * 
- * Documentation Website: https://IoTNextDay.com
- * 
- * Shuo.Ding.Australia@gmail.com 
-*/
+/*Copyright (c) 2021 Shuo Ding
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v2.0
+  and Eclipse Distribution License v1.0 which accompany this distribution. 
+  The Eclipse Public License is available at 
+  https://www.eclipse.org/legal/epl-v20.html
+  and the Eclipse Distribution License is available at
+  https://www.eclipse.org/org/documents/edl-v10.php
+  **************************************************
+  IoT Simulator - v2.0    
+  Author Dr Shuo Ding, 13 June 2021  
+  Documentation Website: https://www.IoTNextDay.com  
+  Email: Shuo.Ding.Australia@Gmail.com 
+ */
 using System;
 using System.IO;
 using System.Text;
@@ -22,7 +26,7 @@ using System.Xml;
 using System.Text.Json;
 using System.Xml.Serialization;
 using System.Device.Location;
-
+//Linux build- use 
 //dotnet build --runtime linux-x64
 namespace IoTApp
 {
