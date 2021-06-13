@@ -1,4 +1,4 @@
-﻿/*Autonomous City - The Internet of Things Powered by Blockchain Project Use Only.  
+﻿/*Autonomous City - The Internet of Things Powered by Blockchain Project.  
 
  * IoT Simulator - v2.0
  *   
