@@ -1,5 +1,5 @@
 # IoT Simulator - v2.0  
-                                Author Dr Shuo Ding  12 June 2021
+                                Author Dr Shuo Ding  14 June 2021
                                 
 ----- APS.NET C#, simulate unlimited IoT sensors (Static and Vehicle) for testing big IoT data sending and receiving (MQTT messages) in real-time.
 
