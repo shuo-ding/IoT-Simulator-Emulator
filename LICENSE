@@ -293,7 +293,9 @@ version(s), and exceptions or additional permissions here}."
                                  - Eclipse Public License - v 1.0: https://github.com/eclipse/paho.mqtt.m2mqtt/blob/master/LICENSE
    
    
-
+---Notices of copyright ownership of System.Data.SqlClient.dll, System.Device.Portable.dll dependencies --
+   NuGet License: https://docs.microsoft.com/en-us/nuget/nuget-org/licenses.nuget.org
+ 
 
   
  
