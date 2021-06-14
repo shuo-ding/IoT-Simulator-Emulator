@@ -13,3 +13,5 @@ IoT Simulator v2.0 provides you with a great platform for developing application
 Please visit my documentation website
 
  <a href="https://iotnextday.com">IoT Next Day</a>
+ 
+ <img src="https://iotnextday.com/images/dashboardmetal.jpg" alt="IoT Simulator">
