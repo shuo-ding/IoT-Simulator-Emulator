@@ -15,5 +15,6 @@ Please visit my documentation website
 
 <a href="https://iotnextday.com" style="font-size:19px">IoT Next Day</a>
  
+If you are not able to access the website from some locations of the world, you can email me: Shuo.Ding.Australia@Gmail.com to solve this. 
  
 
