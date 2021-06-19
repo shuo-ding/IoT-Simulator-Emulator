@@ -11,7 +11,7 @@ The IoT Simulator/Emulator is based on MQTT protocol, with unlimited capacity to
 
 IoT Simulator/Emulator v2.0 provides you with a great platform for developing applications with the requirement of simulating unlimited virtual IoT sensors in your project, based on a mature MQTT communication library, M2MQTT. Some use cases may include: IoT network attacking, vehicle real-time location and guidance in smart car park scenario, smart traffic lights and electrical signs/road sensors for autonomous vehicles, etc.
 
-Please visit my documentation website 
+Please visit my research website to view the documentation
 
 <a href="https://iotnextday.com" style="font-size:19px">IoT Next Day</a>
  
