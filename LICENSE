@@ -276,8 +276,8 @@ version(s), and exceptions or additional permissions here}."
 
   You may add additional accurate notices of copyright ownership.
   
----Notices of copyright ownership of the IoT Simulator source code ---  
-  Any copy, modification, and distribution of the IoT Simulator source code MUST include 
+---Notices of copyright ownership of the IoT Simulator / Emulator source code ---  
+  Any copy, modification, and distribution of the IoT Simulator / Emulator source code MUST include 
   this LICENSE document and the following Copyright Declaration in the source code:   
   /*Copyright (c) 2021 Shuo Ding
   All rights reserved. This program and the accompanying materials
@@ -288,7 +288,7 @@ version(s), and exceptions or additional permissions here}."
   and the Eclipse Distribution License is available at
   https://www.eclipse.org/org/documents/edl-v10.php
   **************************************************
-  IoT Simulator - v2.0    
+  IoT Simulator / Emulator - v2.0    
   Author Dr Shuo Ding, 2021  
   Documentation Website: https://www.IoTNextDay.com  
   Email: Shuo.Ding.Australia@Gmail.com */
