@@ -7,8 +7,8 @@
   and the Eclipse Distribution License is available at
   https://www.eclipse.org/org/documents/edl-v10.php
   **************************************************
-  IoT Simulator - v2.0    
-  Author Dr Shuo Ding, 13 June 2021  
+  IoT Simulator / Emulator- v2.0    
+  Author Dr Shuo Ding, 14 June 2021  
   Documentation Website: https://www.IoTNextDay.com  
   Email: Shuo.Ding.Australia@Gmail.com 
  */
