@@ -280,6 +280,12 @@ version(s), and exceptions or additional permissions here}."
   Any copy, modification, and distribution of the IoT Simulator / Emulator source code MUST include 
   this LICENSE document and the following Copyright Declaration in the source code:   
   /*Copyright (c) 2021 Shuo Ding
+  
+  IoT Simulator / Emulator - v2.0    
+  Author Dr Shuo Ding, 2021  
+  Documentation Website: https://www.IoTNextDay.com  
+  Email: Shuo.Ding.Australia@Gmail.com */
+  
   All rights reserved. This program and the accompanying materials
   are made available under the terms of the Eclipse Public License v2.0
   and Eclipse Distribution License v1.0 which accompany this distribution. 
@@ -288,10 +294,7 @@ version(s), and exceptions or additional permissions here}."
   and the Eclipse Distribution License is available at
   https://www.eclipse.org/org/documents/edl-v10.php
   **************************************************
-  IoT Simulator / Emulator - v2.0    
-  Author Dr Shuo Ding, 2021  
-  Documentation Website: https://www.IoTNextDay.com  
-  Email: Shuo.Ding.Australia@Gmail.com */
+
 
 ---Notices of copyright ownership of the Lib/Mqtt.Net.dll assemblies ---
 
