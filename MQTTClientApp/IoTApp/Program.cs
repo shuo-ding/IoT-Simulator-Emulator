@@ -672,7 +672,7 @@ namespace IoTApp
         public static GpxBlob GpxStore = new GpxBlob();
         static void Main(string[] args)
         {
-            Console.WriteLine("Realtime IoT MQTT Simulator v3.0 - by Dr Shuo Ding 2021");
+            Console.WriteLine("**** Realtime IoT MQTT Simulator Emulator v2.0 - by Dr Shuo Ding 2021 ****");
             Console.WriteLine("CTRL+C the application to exit!");
             SetConsoleCtrlHandler(new HandlerRoutine(ConsoleCtrlCheck), true);
 
@@ -680,7 +680,7 @@ namespace IoTApp
             MqttClient mqttClient = new MqttClient(myConfig.MQTTBroker);
             mqttClient.Connect(myConfig.MyID);
 
-            /*Reserved for Azure IoT hub secure connection, users need to open Azure IoT hub           
+            /*Reserved for Azure IoT hub secure connection, users need to open Azure IoT hub and obtain key string            
             MqttClient mqttClient = new MqttClient("MyIoTHubConnection.azure-devices.net", 8883, true, null, null, MqttSslProtocols.TLSv1_2);
             mqttClient.Connect(myConfig.MyID, "MyIoTHubConnection.azure-devices.net/MyIoTDevices/api-version=2018-06-30", "VEdTAUHL3DkWSxbyYZrJj/PR4pBFf3xaOhPxbvKECAM=");
             */
