@@ -426,7 +426,6 @@ namespace IoTApp
         public SQLWraper()
         {
             connectionString = "Data Source=.\\sqlexpress; Initial Catalog=IoTDB; Integrated Security=True";
-            Connect();
         }
         public void Connect()
         {
@@ -602,16 +601,17 @@ namespace IoTApp
             string SqlConnectionString = XMLBlob.ConfigBlobObj.GlobalSetting.SqlConnectionString;
             SqlWraper = new SQLWraper();
             Log = new Loger(SendFile, RecvFile, LogPath);
-            ConnectSQL();
+            ConnectSQL(SqlConnectionString);
         }
-        public void ConnectSQL()
+        public void ConnectSQL(string conectionstring)
         {
-            if (!String.IsNullOrEmpty(SqlConnectionString))
+            if (!String.IsNullOrEmpty(conectionstring))
             {
-                SqlWraper.connectionString = SqlConnectionString;
+                SqlWraper.connectionString = conectionstring;
                 try
                 {
                     Console.WriteLine("Connect to SQL Server");
+                    Console.WriteLine(conectionstring);
                     SqlWraper.Connect();
                 }
                 catch (Exception e2)
